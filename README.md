@@ -88,6 +88,16 @@ My core engineering focus centers on bridging raw transactional data into action
 
 ---
 
+### Featured Data Platforms & Architectures
+
+| System | Focus Area | Core Technologies | Architectural Highlights |
+| :--- | :--- | :--- | :--- |
+| **[NexStream](https://github.com/FelipeLipeee/nexstream)** | Real-Time CDC & Outbox Engine | Python 3.12, SQL Server CDC, n8n, Parquet | **7,200+ events/sec** streaming, zero table locks on OLTP, atomic Transactional Outbox, LRU idempotency guard. |
+| **[NexLake](https://github.com/FelipeLipeee/nexlake)** | In-Process Medallion Lakehouse | DuckDB, Polars, Snappy Parquet, Kimball | **47.5x faster** than Pandas on 1M rows, zero-copy OLAP views, SCD Type 2 history, RFM customer segmentation mart. |
+| **[TecDesk Dashboard](https://github.com/FelipeLipeee/tecdesk-dashboard)** | Operational BI & Helpdesk DataMart | SQL Server, Python ETL, React 19, Recharts | Executive KPI engine (CSAT, MTTR, SLA), live audit conversation trail, automated background ETL synchronization. |
+
+---
+
 ### Engineering & Data Principles
 
 - **Data Truth in Modeling:** Rigorous dimensional modeling (Kimball) over ad-hoc flat tables to ensure reporting consistency and single source of truth.
