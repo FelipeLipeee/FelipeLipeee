@@ -1,0 +1,75 @@
+name: Update Profile Cards & Metrics
+
+on:
+  schedule:
+    # Executes every night at 03:00 UTC (00:00 BRT)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-metrics:
+    name: Generate & Refresh Metric Cards
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ensure cards directory exists
+        run: mkdir -p profile-cards
+
+      - name: Fetch Tokyo Night Metric Cards
+        run: |
+          # 1. Fetch GitHub Stats Card
+          curl -sS "https://github-readme-stats.vercel.app/api?username=FelipeLipeee&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" -o profile-cards/stats.svg.tmp || true
+          if [ -s profile-cards/stats.svg.tmp ] && ! grep -qi "something went wrong" profile-cards/stats.svg.tmp; then
+            mv profile-cards/stats.svg.tmp profile-cards/stats.svg
+            echo "Successfully updated stats.svg"
+          else
+            echo "Stats card fetch failed or rate-limited; retaining existing SVG."
+            rm -f profile-cards/stats.svg.tmp
+          fi
+
+          # 2. Fetch Top Languages Card (filtered for programming/data languages)
+          curl -sS "https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeLipeee&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css&cache_seconds=1800" -o profile-cards/top-langs.svg.tmp || true
+          if [ -s profile-cards/top-langs.svg.tmp ] && ! grep -qi "something went wrong" profile-cards/top-langs.svg.tmp; then
+            mv profile-cards/top-langs.svg.tmp profile-cards/top-langs.svg
+            echo "Successfully updated top-langs.svg"
+          else
+            echo "Top languages fetch failed; retaining existing SVG."
+            rm -f profile-cards/top-langs.svg.tmp
+          fi
+
+          # 3. Fetch GitHub Streak Stats Card
+          curl -sS "https://streak-stats.demolab.com/?user=FelipeLipeee&theme=tokyonight&hide_border=true&cache_seconds=1800" -o profile-cards/streak.svg.tmp || true
+          if [ -s profile-cards/streak.svg.tmp ] && ! grep -qi "something went wrong" profile-cards/streak.svg.tmp; then
+            mv profile-cards/streak.svg.tmp profile-cards/streak.svg
+            echo "Successfully updated streak.svg"
+          else
+            echo "Streak card fetch failed; retaining existing SVG."
+            rm -f profile-cards/streak.svg.tmp
+          fi
+
+      - name: Generate Multi-Theme Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: -3
+
+      - name: Commit and Push Updated Cards
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add profile-cards/
+          if git diff --staged --quiet; then
+            echo "No changes detected in profile cards."
+          else
+            git commit -m "chore(metrics): auto-refresh static profile cards [skip ci]"
+            git push origin main
+          fi
