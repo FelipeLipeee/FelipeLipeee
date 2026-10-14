@@ -110,14 +110,14 @@ My core engineering focus centers on bridging raw transactional data into action
 ### Activity & GitHub Metrics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FelipeLipeee&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Felipe's GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeLipeee&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=FelipeLipeee&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="Felipe's GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeLipeee&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css&cache_seconds=1800" alt="Top Languages" height="165" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FelipeLipeee&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=FelipeLipeee&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub Streak" />
 </div>
 
 ---
