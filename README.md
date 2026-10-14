@@ -110,14 +110,7 @@ My core engineering focus centers on bridging raw transactional data into action
 ### Activity & GitHub Metrics
 
 <div align="center">
-  <img src="./profile-cards/stats.svg" alt="Felipe's GitHub Stats" height="165" />
-  <img src="./profile-cards/top-langs.svg" alt="Top Languages" height="165" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="./profile-cards/streak.svg" alt="GitHub Streak" />
+  <img src="./profile-cards/streak.svg" alt="GitHub Streak & Contributions" />
 </div>
 
 ---
