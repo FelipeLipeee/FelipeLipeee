@@ -2,7 +2,7 @@
 
 # Felipe Pinete
 ### Software, Data & Applied AI Systems Engineer
-**Resilient Backend & SaaS (.NET 9 / FastAPI) • In-Process Lakehouses (DuckDB / Polars) • Neural Biometrics & LLM Optimization**
+**Resilient Backend & SaaS (.NET 9 / FastAPI) • In-Process Lakehouses (DuckDB / Polars) • Neural Biometrics & Authentic AI**
 
 [![NexEngine Ecosystem](https://img.shields.io/badge/Live%20Ecosystem-nexengine.tech-10B981?style=flat-square&logo=vercel&logoColor=white)](https://nexengine.tech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/felipe-pinete)
@@ -20,7 +20,7 @@ Computer Science undergraduate (UniMAX, 2023–2027) and **Software, Data & Appl
 - **Backend Systems, Workflows & Multi-Tenant SaaS:** Engineering end-to-end corporate platforms and cloud SaaS (`C# / .NET 9`, `Python / FastAPI`, `React 19 / TypeScript`) applying Clean Architecture, rigid ISO 9001 & industrial CMMS state machines, NR10/NR12 LOTO safety interlocks, and Dual-Engine failover (`Microsoft SQL Server` ◄──► `SQLite WAL`) running live at [nexengine.tech](https://nexengine.tech).
 - **In-Process Columnar Lakehouses & CDC:** Architecting local-first Medallion pipelines (Bronze ➔ Silver ➔ Gold) with `DuckDB`, `Polars` Rust SIMD, and `Apache Parquet`, paired with Ralph Kimball dimensional modeling (Star Schema, SCD Type 2, RFM), SQL Server Change Data Capture (CDC), and Transactional Outbox engines.
 - **Executive DataMarts, Telemetry & SQL Server Tuning:** Designing high-density BI platforms (`TecDesk`, `nexOS` PCM metrics, `nexRNC` Pareto), optimizing `T-SQL` execution plans with Window Functions and Covering Indexes, and automating industrial ERP data pipelines (`Sankhya` matrix engine processing 16,761 SKUs in `0.12s`).
-- **Applied AI, Computer Vision & Scientific Research:** Building 1:1 deep learning facial biometrics (`OpenCV YuNet` + `SFace` 128-d embeddings with LGPD data minimization), two-stage CCTV video forensics (`MOG2` + `YOLOv8n`), Shannon Entropy prompt compression compilers benchmarked on **NVIDIA A100 SXM4** (`TokLang`), and AI-assisted reverse oral defense platforms (`Sabatina AI`, submitted to the *IV Simposio de IA UniMAX 2026*).
+- **Applied AI, Computer Vision & Scientific Research:** Building 1:1 deep learning facial biometrics (`OpenCV YuNet` + `SFace` 128-d embeddings with LGPD data minimization), two-stage CCTV video forensics (`MOG2` + `YOLOv8n`), and AI-assisted reverse oral defense platforms (`Sabatina AI`, submitted to the *IV Simposio de IA UniMAX 2026*).
 
 ---
 
@@ -60,16 +60,16 @@ Computer Science undergraduate (UniMAX, 2023–2027) and **Software, Data & Appl
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>Applied AI, Computer Vision & LLM Research</h4>
+      <h4>Applied AI, Computer Vision & Authentic Assessment</h4>
       <img src="https://img.shields.io/badge/OpenCV-YuNet%20%2B%20SFace-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
       <img src="https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black" alt="YOLOv8" />
-      <img src="https://img.shields.io/badge/NVIDIA%20A100-NIM%20Benchmarks-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA A100" />
       <img src="https://img.shields.io/badge/Groq-Whisper%20STT-F55036?style=flat-square" alt="Groq Whisper" />
       <img src="https://img.shields.io/badge/Gemini-Structured%20JSON-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+      <img src="https://img.shields.io/badge/Web%20Audio-Canvas%20FFT-10B981?style=flat-square" alt="Web Audio" />
       <br /><br />
       <ul>
         <li>1:1 neural facial biometrics (93–95% match rate) with strict LGPD data minimization.</li>
-        <li>Shannon Entropy prompt compression evaluated on NVIDIA A100 (-54.3ms TTFT, 16 CI tests).</li>
+        <li>Two-stage CCTV video forensics (MOG2 motion pre-filter + YOLOv8n cutting CPU/GPU &gt;90%).</li>
         <li>Code-to-speech authentic authorship auditing via Web Audio Canvas &amp; Whisper STT.</li>
       </ul>
     </td>
@@ -102,8 +102,8 @@ Computer Science undergraduate (UniMAX, 2023–2027) and **Software, Data & Appl
 | **[nexRNC](https://github.com/FelipeLipeee/nexRNC)** | ISO 9001 Quality & SGI Workflow | [nexengine.tech](https://nexengine.tech) | FastAPI, React 19, SQL Server, SQLite | **8-stage workflow**, bidirectional External-to-Internal unfolding, shift-aware SLA, Pareto BI, batch A4 print. |
 | **[NexLift 2.0](https://github.com/FelipeLipeee/nexlift)** | Strength & Body Recomposition | [lift.nexengine.tech](https://lift.nexengine.tech) | FastAPI, React 19, SQLite WAL, Web Audio | Double Progression under RIR, **22-muscle anatomical map**, US Navy %BF, monthly calendar, single-rAF motion engine. |
 | **[NexAccess](https://github.com/FelipeLipeee/nexaccess)** | Deep Learning Biometric Access | [access.nexengine.tech](https://access.nexengine.tech) | OpenCV YuNet, SFace 128-d, FastAPI, React | **93–95% 1:1 face verification**, Cyber HUD Web Audio synth, 2-stage LGPD quarantine, contractor time-locks. |
-| **[TokLang](https://github.com/Taiwansz/TCC-CIENCIAS-DA-COMPUTACAO-2026)** | Shannon Prompt Compression | TCC Research | Python 3.12, NVIDIA NIM A100, Llama-3.2-11B | **-54.3 ms TTFT**, 19.4%–32.8% token reduction, 4-decimal empirical parity on A100 SXM4, 16 CI tests. |
 | **[Sabatina AI](https://github.com/FelipeLipeee/sabatina-ai)** | Authentic AI Oral Defense | IV Simposio IA | FastAPI, Gemini 2.5 Flash, Groq Whisper, Web Audio | PBL DataCorp case generator, 60s Canvas voice defense, code-to-speech authorship audit (0–100%). |
+| **[NexVision](https://github.com/FelipeLipeee/nexvision)** | AI CCTV Video Forensics | Open Source | Python, OpenCV MOG2, YOLOv8n, HTML5 Canvas | Two-stage motion pre-filter + selective inference cutting CPU/GPU overhead **>90%**, DVR anti-glitch. |
 | **[TecDesk Dashboard](https://github.com/FelipeLipeee/tecdesk-dashboard)** | Operational BI & Helpdesk DW | Enterprise | SQL Server, Python ETL, React 18, Recharts | Executive KPI engine (CSAT, NPS, MTTR, SLA), dynamic temporal slicing, automated background sync. |
 
 ---
