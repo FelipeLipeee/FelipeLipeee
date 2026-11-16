@@ -88,13 +88,19 @@ My core engineering focus centers on bridging raw transactional data into action
 
 ---
 
-### Featured Data Platforms & Architectures
+### Featured Platforms & Architectures
 
-| System | Focus Area | Core Technologies | Architectural Highlights |
-| :--- | :--- | :--- | :--- |
-| **[NexStream](https://github.com/FelipeLipeee/nexstream)** | Real-Time CDC & Outbox Engine | Python 3.12, SQL Server CDC, n8n, Parquet | **7,200+ events/sec** streaming, zero table locks on OLTP, atomic Transactional Outbox, LRU idempotency guard. |
-| **[NexLake](https://github.com/FelipeLipeee/nexlake)** | In-Process Medallion Lakehouse | DuckDB, Polars, Snappy Parquet, Kimball | **47.5x faster** than Pandas on 1M rows, zero-copy OLAP views, SCD Type 2 history, RFM customer segmentation mart. |
-| **[TecDesk Dashboard](https://github.com/FelipeLipeee/tecdesk-dashboard)** | Operational BI & Helpdesk DataMart | SQL Server, Python ETL, React 19, Recharts | Executive KPI engine (CSAT, MTTR, SLA), live audit conversation trail, automated background ETL synchronization. |
+| System | Focus Area | Live / Scope | Core Technologies | Architectural Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[NexLake](https://github.com/FelipeLipeee/nexlake)** | In-Process Medallion Lakehouse | Open Source | DuckDB, Polars SIMD, Parquet, Kimball | **>6x faster** & **>95% RAM reduction** vs Pandas on 1M+ rows, SCD Type 2, RFM customer marts. |
+| **[NexStream](https://github.com/FelipeLipeee/nexstream)** | Real-Time CDC & Outbox Engine | Open Source | Python 3.12, SQL Server CDC, n8n, Parquet | **7,200+ events/sec** streaming, zero OLTP locks, atomic Transactional Outbox, LRU idempotency. |
+| **[nexOS](https://github.com/FelipeLipeee/nexOS)** | Multi-Tenant SaaS CMMS | [os.nexengine.tech](https://os.nexengine.tech) | FastAPI, React 19, SQL Server, SQLite WAL | **328 factory machines**, dynamic GUT matrix (1–125), NR10/NR12 LOTO safety locks, MTBF/MTTR, preventive plans. |
+| **[nexRNC](https://github.com/FelipeLipeee/nexRNC)** | ISO 9001 Quality & SGI Workflow | [nexengine.tech](https://nexengine.tech) | FastAPI, React 19, SQL Server, SQLite | **8-stage workflow**, bidirectional External-to-Internal unfolding, shift-aware SLA, Pareto BI, batch A4 print. |
+| **[NexLift 2.0](https://github.com/FelipeLipeee/nexlift)** | Strength & Body Recomposition | [lift.nexengine.tech](https://lift.nexengine.tech) | FastAPI, React 19, SQLite WAL, Web Audio | Double Progression under RIR, **22-muscle anatomical map**, US Navy %BF, monthly calendar, single-rAF motion engine. |
+| **[NexAccess](https://github.com/FelipeLipeee/nexaccess)** | Deep Learning Biometric Access | [access.nexengine.tech](https://access.nexengine.tech) | OpenCV YuNet, SFace 128-d, FastAPI, React | **93–95% 1:1 face verification**, Cyber HUD Web Audio synth, 2-stage LGPD quarantine, contractor time-locks. |
+| **[TokLang](https://github.com/Taiwansz/TCC-CIENCIAS-DA-COMPUTACAO-2026)** | Shannon Prompt Compression | TCC Research | Python 3.12, NVIDIA NIM A100, Llama-3.2-11B | **-54.3 ms TTFT**, 19.4%–32.8% token reduction, 4-decimal empirical parity on A100 SXM4, 16 CI tests. |
+| **[Sabatina AI](https://github.com/FelipeLipeee/sabatina-ai)** | Authentic AI Oral Defense | IV Simposio IA | FastAPI, Gemini 2.5 Flash, Groq Whisper, Web Audio | PBL DataCorp case generator, 60s Canvas voice defense, code-to-speech authorship audit (0–100%). |
+| **[TecDesk Dashboard](https://github.com/FelipeLipeee/tecdesk-dashboard)** | Operational BI & Helpdesk DW | Enterprise | SQL Server, Python ETL, React 18, Recharts | Executive KPI engine (CSAT, NPS, MTTR, SLA), dynamic temporal slicing, automated background sync. |
 
 ---
 
