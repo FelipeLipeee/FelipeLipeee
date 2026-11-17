@@ -4,7 +4,6 @@
 ### Software, Data & Applied AI Systems Engineer
 **Resilient Backend & SaaS (.NET 9 / FastAPI) • In-Process Lakehouses (DuckDB / Polars) • Neural Biometrics & Authentic AI**
 
-[![NexEngine Ecosystem](https://img.shields.io/badge/Live%20Ecosystem-nexengine.tech-10B981?style=flat-square&logo=vercel&logoColor=white)](https://nexengine.tech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/felipe-pinete)
 [![Email](https://img.shields.io/badge/Email-Felipe__pinete%40outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:Felipe_pinete@outlook.com)
 [![Location](https://img.shields.io/badge/Location-Indaiatuba%20%2F%20SP%2C%20Brazil-1B1F23?style=flat-square&logo=googlemaps&logoColor=white)](#)
@@ -96,15 +95,15 @@ Computer Science undergraduate (UniMAX, 2023–2027) and **Software, Data & Appl
 
 | System | Focus Area | Live / Scope | Core Technologies | Architectural Highlights |
 | :--- | :--- | :--- | :--- | :--- |
-| **[NexLake](https://github.com/FelipeLipeee/nexlake)** | In-Process Medallion Lakehouse | Open Source | DuckDB, Polars SIMD, Parquet, Kimball | **>6x faster** & **>95% RAM reduction** vs Pandas on 1M+ rows, SCD Type 2, RFM customer marts. |
-| **[NexStream](https://github.com/FelipeLipeee/nexstream)** | Real-Time CDC & Outbox Engine | Open Source | Python 3.12, SQL Server CDC, n8n, Parquet | **7,200+ events/sec** streaming, zero OLTP locks, atomic Transactional Outbox, LRU idempotency. |
-| **[nexOS](https://github.com/FelipeLipeee/nexOS)** | Multi-Tenant SaaS CMMS | [os.nexengine.tech](https://os.nexengine.tech) | FastAPI, React 19, SQL Server, SQLite WAL | **328 factory machines**, dynamic GUT matrix (1–125), NR10/NR12 LOTO safety locks, MTBF/MTTR, preventive plans. |
-| **[nexRNC](https://github.com/FelipeLipeee/nexRNC)** | ISO 9001 Quality & SGI Workflow | [nexengine.tech](https://nexengine.tech) | FastAPI, React 19, SQL Server, SQLite | **8-stage workflow**, bidirectional External-to-Internal unfolding, shift-aware SLA, Pareto BI, batch A4 print. |
-| **[NexLift 2.0](https://github.com/FelipeLipeee/nexlift)** | Strength & Body Recomposition | [lift.nexengine.tech](https://lift.nexengine.tech) | FastAPI, React 19, SQLite WAL, Web Audio | Double Progression under RIR, **22-muscle anatomical map**, US Navy %BF, monthly calendar, single-rAF motion engine. |
-| **[NexAccess](https://github.com/FelipeLipeee/nexaccess)** | Deep Learning Biometric Access | [access.nexengine.tech](https://access.nexengine.tech) | OpenCV YuNet, SFace 128-d, FastAPI, React | **93–95% 1:1 face verification**, Cyber HUD Web Audio synth, 2-stage LGPD quarantine, contractor time-locks. |
-| **[Sabatina AI](https://github.com/FelipeLipeee/sabatina-ai)** | Authentic AI Oral Defense | IV Simposio IA | FastAPI, Gemini 2.5 Flash, Groq Whisper, Web Audio | PBL DataCorp case generator, 60s Canvas voice defense, code-to-speech authorship audit (0–100%). |
-| **[NexVision](https://github.com/FelipeLipeee/nexvision)** | AI CCTV Video Forensics | Open Source | Python, OpenCV MOG2, YOLOv8n, HTML5 Canvas | Two-stage motion pre-filter + selective inference cutting CPU/GPU overhead **>90%**, DVR anti-glitch. |
-| **[TecDesk Dashboard](https://github.com/FelipeLipeee/tecdesk-dashboard)** | Operational BI & Helpdesk DW | Enterprise | SQL Server, Python ETL, React 18, Recharts | Executive KPI engine (CSAT, NPS, MTTR, SLA), dynamic temporal slicing, automated background sync. |
+| **NexLake** | In-Process Medallion Lakehouse | Open Source | DuckDB, Polars SIMD, Parquet, Kimball | **>6x faster** & **>95% RAM reduction** vs Pandas on 1M+ rows, SCD Type 2, RFM customer marts. |
+| **NexStream** | Real-Time CDC & Outbox Engine | Open Source | Python 3.12, SQL Server CDC, n8n, Parquet | **7,200+ events/sec** streaming, zero OLTP locks, atomic Transactional Outbox, LRU idempotency. |
+| **nexOS** | Multi-Tenant SaaS CMMS | os.nexengine.tech | FastAPI, React 19, SQL Server, SQLite WAL | **328 factory machines**, dynamic GUT matrix (1–125), NR10/NR12 LOTO safety locks, MTBF/MTTR, preventive plans. |
+| **nexRNC** | ISO 9001 Quality & SGI Workflow | nexengine.tech | FastAPI, React 19, SQL Server, SQLite | **8-stage workflow**, bidirectional External-to-Internal unfolding, shift-aware SLA, Pareto BI, batch A4 print. |
+| **NexLift 2.0** | Strength & Body Recomposition | lift.nexengine.tech | FastAPI, React 19, SQLite WAL, Web Audio | Double Progression under RIR, **22-muscle anatomical map**, US Navy %BF, monthly calendar, single-rAF motion engine. |
+| **NexAccess** | Deep Learning Biometric Access | access.nexengine.tech | OpenCV YuNet, SFace 128-d, FastAPI, React | **93–95% 1:1 face verification**, Cyber HUD Web Audio synth, 2-stage LGPD quarantine, contractor time-locks. |
+| **Sabatina AI** | Authentic AI Oral Defense | IV Simposio IA | FastAPI, Gemini 2.5 Flash, Groq Whisper, Web Audio | PBL DataCorp case generator, 60s Canvas voice defense, code-to-speech authorship audit (0–100%). |
+| **NexVision** | AI CCTV Video Forensics | Open Source | Python, OpenCV MOG2, YOLOv8n, HTML5 Canvas | Two-stage motion pre-filter + selective inference cutting CPU/GPU overhead **>90%**, DVR anti-glitch. |
+| **TecDesk Dashboard** | Operational BI & Helpdesk DW | Enterprise | SQL Server, Python ETL, React 18, Recharts | Executive KPI engine (CSAT, NPS, MTTR, SLA), dynamic temporal slicing, automated background sync. |
 
 ---
 
