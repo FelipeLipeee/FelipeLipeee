@@ -16,7 +16,7 @@
 
 Computer Science undergraduate (UniMAX, 2023–2027) and **Software, Data & Applied AI Systems Engineer** focused on shipping production-grade architectures that bridge resilient transactional backends, high-throughput analytical lakehouses, and deterministic applied AI:
 
-- **Backend Systems, Workflows & Multi-Tenant SaaS:** Engineering end-to-end corporate platforms and cloud SaaS (`C# / .NET 9`, `Python / FastAPI`, `React 19 / TypeScript`) applying Clean Architecture, rigid ISO 9001 & industrial CMMS state machines, NR10/NR12 LOTO safety interlocks, and Dual-Engine failover (`Microsoft SQL Server` ◄──► `SQLite WAL`) running live at [nexengine.tech](https://nexengine.tech).
+- **Backend Systems, Workflows & Multi-Tenant SaaS:** Engineering end-to-end corporate platforms and cloud SaaS (`C# / .NET 9`, `Python / FastAPI`, `React 19 / TypeScript`) applying Clean Architecture, rigid ISO 9001 & industrial CMMS state machines, NR10/NR12 LOTO safety interlocks, and Dual-Engine failover (`Microsoft SQL Server` ◄──► `SQLite WAL`).
 - **In-Process Columnar Lakehouses & CDC:** Architecting local-first Medallion pipelines (Bronze ➔ Silver ➔ Gold) with `DuckDB`, `Polars` Rust SIMD, and `Apache Parquet`, paired with Ralph Kimball dimensional modeling (Star Schema, SCD Type 2, RFM), SQL Server Change Data Capture (CDC), and Transactional Outbox engines.
 - **Executive DataMarts, Telemetry & SQL Server Tuning:** Designing high-density BI platforms (`TecDesk`, `nexOS` PCM metrics, `nexRNC` Pareto), optimizing `T-SQL` execution plans with Window Functions and Covering Indexes, and automating industrial ERP data pipelines (`Sankhya` matrix engine processing 16,761 SKUs in `0.12s`).
 - **Applied AI, Computer Vision & Scientific Research:** Building 1:1 deep learning facial biometrics (`OpenCV YuNet` + `SFace` 128-d embeddings with LGPD data minimization), two-stage CCTV video forensics (`MOG2` + `YOLOv8n`), and AI-assisted reverse oral defense platforms (`Sabatina AI`, submitted to the *IV Simposio de IA UniMAX 2026*).
@@ -93,14 +93,14 @@ Computer Science undergraduate (UniMAX, 2023–2027) and **Software, Data & Appl
 
 ### Featured Platforms & Architectures
 
-| System | Focus Area | Live / Scope | Core Technologies | Architectural Highlights |
+| System | Focus Area | Scope | Core Technologies | Architectural Highlights |
 | :--- | :--- | :--- | :--- | :--- |
 | **NexLake** | In-Process Medallion Lakehouse | Open Source | DuckDB, Polars SIMD, Parquet, Kimball | **>6x faster** & **>95% RAM reduction** vs Pandas on 1M+ rows, SCD Type 2, RFM customer marts. |
 | **NexStream** | Real-Time CDC & Outbox Engine | Open Source | Python 3.12, SQL Server CDC, n8n, Parquet | **7,200+ events/sec** streaming, zero OLTP locks, atomic Transactional Outbox, LRU idempotency. |
-| **nexOS** | Multi-Tenant SaaS CMMS | os.nexengine.tech | FastAPI, React 19, SQL Server, SQLite WAL | **328 factory machines**, dynamic GUT matrix (1–125), NR10/NR12 LOTO safety locks, MTBF/MTTR, preventive plans. |
-| **nexRNC** | ISO 9001 Quality & SGI Workflow | nexengine.tech | FastAPI, React 19, SQL Server, SQLite | **8-stage workflow**, bidirectional External-to-Internal unfolding, shift-aware SLA, Pareto BI, batch A4 print. |
-| **NexLift 2.0** | Strength & Body Recomposition | lift.nexengine.tech | FastAPI, React 19, SQLite WAL, Web Audio | Double Progression under RIR, **22-muscle anatomical map**, US Navy %BF, monthly calendar, single-rAF motion engine. |
-| **NexAccess** | Deep Learning Biometric Access | access.nexengine.tech | OpenCV YuNet, SFace 128-d, FastAPI, React | **93–95% 1:1 face verification**, Cyber HUD Web Audio synth, 2-stage LGPD quarantine, contractor time-locks. |
+| **nexOS** | Multi-Tenant SaaS CMMS | Enterprise / SaaS | FastAPI, React 19, SQL Server, SQLite WAL | **328 factory machines**, dynamic GUT matrix (1–125), NR10/NR12 LOTO safety locks, MTBF/MTTR, preventive plans. |
+| **nexRNC** | ISO 9001 Quality & SGI Workflow | Enterprise / SaaS | FastAPI, React 19, SQL Server, SQLite | **8-stage workflow**, bidirectional External-to-Internal unfolding, shift-aware SLA, Pareto BI, batch A4 print. |
+| **NexLift 2.0** | Strength & Body Recomposition | Fullstack Web App | FastAPI, React 19, SQLite WAL, Web Audio | Double Progression under RIR, **22-muscle anatomical map**, US Navy %BF, monthly calendar, single-rAF motion engine. |
+| **NexAccess** | Deep Learning Biometric Access | Enterprise Security | OpenCV YuNet, SFace 128-d, FastAPI, React | **93–95% 1:1 face verification**, Cyber HUD Web Audio synth, 2-stage LGPD quarantine, contractor time-locks. |
 | **Sabatina AI** | Authentic AI Oral Defense | IV Simposio IA | FastAPI, Gemini 2.5 Flash, Groq Whisper, Web Audio | PBL DataCorp case generator, 60s Canvas voice defense, code-to-speech authorship audit (0–100%). |
 | **NexVision** | AI CCTV Video Forensics | Open Source | Python, OpenCV MOG2, YOLOv8n, HTML5 Canvas | Two-stage motion pre-filter + selective inference cutting CPU/GPU overhead **>90%**, DVR anti-glitch. |
 | **TecDesk Dashboard** | Operational BI & Helpdesk DW | Enterprise | SQL Server, Python ETL, React 18, Recharts | Executive KPI engine (CSAT, NPS, MTTR, SLA), dynamic temporal slicing, automated background sync. |
