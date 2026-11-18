@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/felipe-pinete)
 [![Email](https://img.shields.io/badge/Email-Felipe__pinete%40outlook.com-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:Felipe_pinete@outlook.com)
-[![Location](https://img.shields.io/badge/Location-Indaiatuba%20%2F%20SP%2C%20Brazil-1B1F23?style=flat-square&logo=googlemaps&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/Location-SP%2C%20Brazil-1B1F23?style=flat-square&logo=googlemaps&logoColor=white)](#)
 
 </div>
 
